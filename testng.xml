@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/laxitpatel/IdeaProjects/untitled">
+        <classes>
+            <class name="Project">
+                <methods>
+                    <include name="openBrowser"></include>
+                    <include name="checkTitle"></include>
+                    <include name="displayLogo"></include>
+                </methods>
+
+            </class>
+            <class name="Project2">
+                <methods>
+                    <include name="testImages"></include>
+                    <include name="testBtn"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
